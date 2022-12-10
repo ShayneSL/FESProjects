@@ -29,9 +29,14 @@ nav {
     display: flex;
     gap: 16px;
     list-style: none;
+    
+}
+
+.nav-list__link {
+    padding: 8px;
 }
 
 .frame {
     border: 2px solid #7342d6;
-    padding: 8px;
+    border-radius: 4px;
 }
