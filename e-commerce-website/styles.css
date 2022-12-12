@@ -39,3 +39,9 @@ nav {
     border: 2px solid #7342d6;
     border-radius: 4px;
 }
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 24px;
+}
