@@ -40,11 +40,13 @@ nav {
     gap: 16px;
     list-style: none;
     font-weight: bold;
+    transition: 0.7s ease all;
 }
 
 .nav-list__link:hover {
     text-decoration: underline;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .frame {
