@@ -6,11 +6,6 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
 
 .purple-text{
     color: #7342d6
@@ -22,40 +17,26 @@ nav {
 }
 
 .nav__container {
+    display: flex;
     width: 100%;
     max-width: 1200px;
-    display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     align-items: center;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
-.nav-logo-bookstack {
+.logo {
     width: 160px;
-    height: 80px;
 }
 
-.nav-list__links{
+ul {
     display: flex;
     gap: 16px;
+}
+
+li {
     list-style: none;
-    font-weight: bold;
-    transition: 0.7s ease all;
 }
 
-.nav-list__link:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
-.frame {
-    border: 2px solid #7342d6;
-    border-radius: 4px;
-}
-
-h1 {
-    font-size: 56px;
-    text-align: center;
-    margin-bottom: 24px;
-}
+/* see 07:20*/
