@@ -50,4 +50,21 @@ li {
     border-radius: 4px;
 }
 
-/* see 07:20*/
+#lander {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.header__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lander__img{
+    width: 160px;
+}
+
+/* see 10:20*/
+
+header{
+    height: calc(100vh - 80px);
+}
