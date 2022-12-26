@@ -136,6 +136,14 @@ Highlight Section
     border: 1px solid gold;
     width: 100%;
     display: flex;
+}
+
+.highlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
