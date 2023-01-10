@@ -241,5 +241,5 @@ FEATURES
 }
 
 .book:hover .book__img {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
