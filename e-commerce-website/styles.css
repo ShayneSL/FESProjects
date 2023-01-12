@@ -214,7 +214,6 @@ FEATURES
 
 */
 
-/* video at 45:05*/
 
 #featured-books {
     padding-top: 8vw;
@@ -251,7 +250,7 @@ FEATURES
 }
 
 .book__title:hover {
-    cursor: no-drop;
+    cursor: not-allowed;
     text-decoration: underline;
 }
 
@@ -265,3 +264,5 @@ FEATURES
     padding-right: 6px;
     color: gray;
 }
+
+/* video at 45:05*/
