@@ -272,4 +272,28 @@ FEATURES
     color: gray;
 }
 
-/* video at 1:00:05, attempt the next section yourself*/
+/* video at 1:02:05, attempt the next section yourself*/
+
+/*
+
+Footer
+
+*/
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer__img--logo {
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__nav--link {
+    color: white;
+}
+
+.footer__nav--link:hover {
+    cursor: not-allowed;
+}
