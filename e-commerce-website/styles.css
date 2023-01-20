@@ -297,3 +297,8 @@ footer {
 .footer__nav--link:hover {
     cursor: not-allowed;
 }
+
+footer .row {
+    border: 1px solid gold;
+    margin: 0 auto;
+}
