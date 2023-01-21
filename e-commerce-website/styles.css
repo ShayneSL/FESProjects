@@ -301,4 +301,7 @@ footer {
 footer .row {
     border: 1px solid gold;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
